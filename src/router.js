@@ -28,7 +28,7 @@ const router = new VueRouter({
 		{
 			path: '*',
 			redirect: '/',
-			component: Home
+			component: Users
 		}
 	]
 });

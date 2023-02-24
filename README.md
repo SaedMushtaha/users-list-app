@@ -1,6 +1,8 @@
 #  Users App
 This is the solution for the front-end developer task at Thermondo
 
+Live on: 
+
 ## Development interface
 
 
@@ -15,7 +17,6 @@ Is developed with **[vue.js](https://vuejs.org/)** 2.6.10 a Javascript framework
     -   [colorPalette](./src/constants/colorPalette.js)
     -   [mapSettings](./src/constants/mapSettings.js)
 -   views
-    -   [Home](./src/views/Home.vue)
     -   [Users](./src/views/Users.vue)
     -   [User](./src/views/User.vue)
 -   components
