@@ -1,0 +1,23 @@
+// SETTINGS
+// COLORS
+// ------------------
+
+// GRAY SCALE
+// =================================================
+$color-black: #000000;
+$color-gray: #3F3F3F;
+$color-silver: #D5D5D5;
+$color-light: #FAFAFA;
+$color-white: #FFFFFF;
+
+// STATUS
+// =================================================
+$color-error: #FF6347;
+$color-success: #008080;
+
+// BRAND
+// =================================================
+$color-brand-1: #42B883;
+$color-brand-2: #35495E;
+$color-brand-2--dark: mix($color-black, $color-brand-2, 20%);
+$color-gradient: linear-gradient($color-brand-1, $color-brand-2);
