@@ -7,7 +7,7 @@
 		"preinstall": "npm run install:clean && npm install --openssl-legacy-provider --package-lock-only --ignore-scripts && npx npm-force-resolutions",
 		"postinstall": "npm run lint",
 		"serve": "vue-cli-service serve",
-		"build": "vue-cli-service build",
+		"build": "vue-cli-service build --openssl-legacy-provider",
 		"prettier:fix": "prettier --write \"./**/*.{vue,js,json}\"",
 		"stylelint:fix": "stylelint \"**/*.{css,scss,sass,vue}\" --fix --ignore-path .stylelintignore",
 		"eslint:fix": "vue-cli-service lint \"**/*.{json,js,vue}\" --fix --ignore-path .eslintignore",
@@ -15,6 +15,7 @@
 		"deploy": "node gh-pages-deploy.js"
 	},
 	"dependencies": {
+		"@vue/cli-plugin-vuex": "^5.0.8",
 		"chalk": "^4.1.2",
 		"core-js": "^3.27.2",
 		"execa": "^5.1.1",
@@ -31,8 +32,8 @@
 		"@babel/eslint-parser": "^7.19.1",
 		"@types/leaflet": "^1.9.0",
 		"@vue/cli-plugin-babel": "^4.5.19",
-		"@vue/cli-plugin-eslint": "^4.5.19",
-		"@vue/cli-plugin-router": "^4.5.19",
+		"@vue/cli-plugin-eslint": "^5.0.8",
+		"@vue/cli-plugin-router": "^5.0.8",
 		"@vue/cli-service": "^4.5.19",
 		"@vue/eslint-config-prettier": "^7.0.0",
 		"eslint": "^7.32.0",
