@@ -17,7 +17,7 @@
 	"dependencies": {
 		"@vue/cli-plugin-vuex": "^5.0.8",
 		"chalk": "^4.1.2",
-		"core-js": "^3.27.2",
+		"core-js": "^3.28.0",
 		"execa": "^5.1.1",
 		"google-maps-api-loader": "^1.1.1",
 		"leaflet": "^1.9.3",
