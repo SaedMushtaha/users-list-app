@@ -101,6 +101,7 @@
 			async addUsers() {
 				const data = await this.fetchUser();
 				const usersFormatted = await this.createUsers(data);
+				this.usersList = this.$tools.getLocalStorage('users');
 				this.usersList = [
 					...this.usersList,
 					...usersFormatted

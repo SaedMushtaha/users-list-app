@@ -77,6 +77,7 @@
 			},
 			removeAllUsers() {
 				this.usersList = [];
+				this.$tools.setLocalStorage('users', 'null');
 			}
 		}
 	};

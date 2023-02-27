@@ -6,7 +6,7 @@
 		"install:clean": "rm -rf node_modules package-lock.json",
 		"preinstall": "npm run install:clean && npm install --openssl-legacy-provider --package-lock-only --ignore-scripts && npx npm-force-resolutions",
 		"postinstall": "npm run lint",
-		"serve": "vue-cli-service serve",
+		"serve": "vue-cli-service serve --openssl-legacy-provider",
 		"build": "vue-cli-service build --openssl-legacy-provider",
 		"prettier:fix": "prettier --write \"./**/*.{vue,js,json}\"",
 		"stylelint:fix": "stylelint \"**/*.{css,scss,sass,vue}\" --fix --ignore-path .stylelintignore",
